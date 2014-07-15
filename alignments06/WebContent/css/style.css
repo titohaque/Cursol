@@ -1,0 +1,228 @@
+/* @import url("main.css"); */
+
+
+#wrapper {
+	width:1313px;
+	height:1160px;
+	border:3px solid black;
+	position:relative;
+}
+
+#head {
+	width: 1304px;
+	height: 50px;
+	border: 1px solid black;
+	margin: 2px 0px 0px 4px;
+	background: none;
+/* 	background:url("../images/adv_logo_hd.gif") no-repeat;
+ */}
+
+#head ul li {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 8px 170px 0 10px;
+	list-style: none;
+	
+}
+
+#container {
+	width: 1300px;
+	height: 1000px;
+	border: 2px solid black;
+	position: absolute;
+	top: 60px;
+	left: 6px;
+}
+
+#container1_image {
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 60px;
+	left: 486px;
+}
+
+#next_btn {
+	position: absolute;
+	top: 172px;
+	right: 369px;
+}
+
+#prev_btn {
+	position: absolute;
+	top: 172px;
+	left: 445px;
+}
+
+#innerproduct {
+	width: 505px;
+	height: 166px;
+	border: 1px solid black;
+	position:absolute;
+	top:463px;
+	right:347px;
+	}
+
+#next_page {
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+}
+
+/*Nexux 10*/
+@media screen and (max-width:1200px) {
+	#wrapper {
+		width: 90%;
+		height: 1240px;
+		border: 3px solid red;
+		margin: 2% 10% 2% 4%;
+		/* position: relative; */
+	}
+	#head {
+		width: 90%;
+		height: 50px;
+		border: 2px solid red;
+		margin: 2% 0% 0% 4%;
+	}
+	#head ul li {
+		float: left;
+		margin: 0px 0px 0px 0px;
+		padding: 8px 86px 0 10px;
+		list-style: none;
+	}
+	#container {
+		width: 90%;
+		height: 1000px;
+		border: 2px solid red;
+		position: absolute;
+		top: 81px;
+		left: 40px;
+	}
+	#container1_image {
+		width: 50%;
+		height: 230px;
+		border: 2px solid red;
+		position: absolute;
+		top: 22px;
+		left: 187px;
+	}
+	#next_btn {
+		position: absolute;
+		top: 101px;
+		right: 204px;
+	}
+	#prev_btn {
+		position: absolute;
+		top: 101px;
+		left: 146px;
+	}
+}
+
+/* Ipad generation 1-2 */
+@media screen and (max-width:768px) {
+	#wrapper {
+		width: 90%;;
+		height: 1024px;
+		border: 3px solid purple;
+		margin: 2% 10% 2% 4%;
+		/* position: relative; */
+	}
+	#head {
+		width: 90%;
+		height: 50px;
+		border: 2px solid purple;
+		margin: 2% 0% 0% 4%;
+	}
+	#head ul li {
+		float: left;
+		margin: 0px 0px 0px 0px;
+		padding: 8px 30px 0 10px;
+		list-style: none;
+	}
+	#container {
+		width: 90%;
+		height: 1000px;
+		border: 2px solid purple;
+		position: absolute;
+		top: 75px;
+		left: 25px;
+	}
+	#container1_image {
+		width: 44%;
+		height: 200px;
+		border: 2px solid purple;
+		position: absolute;
+		top: 12px;
+		left: 154px;
+	}
+	#next_btn {
+		position: absolute;
+		top: 101px;
+		right: 130px;
+	}
+	#prev_btn {
+		position: absolute;
+		top: 101px;
+		left: 112px;
+	}
+}
+
+/*Iphone 5 */
+@media screen and (max-width:550px) {
+	#wrapper {
+		width: 90%;
+		height: 550px;
+		border: 3px solid green;
+		margin: 2% 10% 2% 4%;
+		/* position: relative; */
+	}
+	#head {
+		width: 90%;
+		height: 128px;
+		border: 2px solid green;
+		border-radius: 20px;
+		behavior: url("css/PIE.htc");
+		margin: 2% 0% 0% 4%
+	}
+	#head ul li {
+		display: block;
+		margin: 0px 0px 0px 0px;
+		padding: 8px 46px 0 10px;
+		list-style: none;
+	}
+	#container {
+		width: 90%;
+		height: 340px;
+		border: 2px solid green;
+		position: absolute;
+		top: 149px;
+		left: 9px;
+	}
+	#container1_image {
+		width: 83%;
+		height: 200px;
+		border: 3px solid purple;
+		position: absolute;
+		top: 86px;
+		left: 18px;
+		/* display:none; */
+	}
+	#next_btn {
+		position: absolute;
+		top: 166px;
+		right: -18px;
+	}
+	#prev_btn {
+		position: absolute;
+		top: 172px;
+		left: -19px;
+	}
+	#innerproduct {
+	display:none;
+	}
+	#container{
+	
+	*color:seagreen; /*IE6*/
+}
+}
